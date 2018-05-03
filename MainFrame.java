@@ -4,7 +4,6 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 import java.awt.FlowLayout;
-//import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -72,16 +71,6 @@ public class MainFrame extends JFrame {
 		gridContainer.add(bottomPanel);
 
 		add(gridContainer);
-
-		//JPanel flowContainer = new JPanel(new FlowLayout(FlowLayout.CENTER, 5, 5));
-		//flowContainer.add(gridContainer);
-
-		//JPanel borderPanel = new JPanel(new BorderLayout(50, 50));
-		//borderPanel.add(topPanel, BorderLayout.NORTH);
-		//borderPanel.add(output, BorderLayout.CENTER);
-		//borderPanel.add(bottomPanel, BorderLayout.SOUTH);
-
-		//add(borderPanel);
 	}
 
 	private void update() {
