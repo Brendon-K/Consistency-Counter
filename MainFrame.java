@@ -21,7 +21,7 @@ public class MainFrame extends JFrame {
 
 	public MainFrame() {
 		super("Consistency Counter");
-		setLayout(new FlowLayout(FlowLayout.CENTER));
+		setLayout(new FlowLayout(FlowLayout.CENTER, 75, 0));
 
 		successes = 0;
 		total = 0;
